@@ -6,17 +6,9 @@ JSS.js complicates your process by taking your CSS, processing it via jQuery, th
 
 ##Install
 1) Download jss.js to your project directory
-2) Add the following to your HTML head code:
-		<plaintext>
-			<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-			<script src="/path/to/jss.js"></script>
-		</plaintext>
-	<br><br>
+2) Add jQuery and jss.js to your HTML head node
 3) Import all your CSS right after you import the JS files
-		<plaintext>
-			<script type="text/javascript">jss.import('/path/to/your/css.css');</script>
-		<plaintext>
-	<br>
+	<plaintext><script type="text/javascript">jss.import('/path/to/your/css.css');</script></plaintext>
 	<strong>Do that as many times as you need to for all your CSS files</strong>
 	<br><br>
 4) Add CSS to your CSS files!
