@@ -1,0 +1,13 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css);
+
+.main { background: yellow; }
+
+a[swag*="swag"] 
+{
+	background: red;
+	font-size: 500px;
+}
+
+p::after { 
+    content: " - Remember this";
+}
