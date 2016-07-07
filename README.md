@@ -6,7 +6,7 @@ JSS.js complicates your process by taking your CSS, processing it via jQuery, th
 
 ##Install
 1) Download jss.js to your project directory
-2) Add the following to your HTML <plaintext><head></plaintext> code:
+2) Add the following to your HTML head code:
 		<plaintext>
 			<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 			<script src="/path/to/jss.js"></script>
