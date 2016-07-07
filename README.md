@@ -13,9 +13,11 @@ JSS.js complicates your process by taking your CSS, processing it via jQuery, th
 	</plaintext></code>
 	<br><br>
 3) Import all your CSS right after you import the JS files
-	<code><plaintext>
-		<script type="text/javascript">jss.import('/path/to/your/css.css');</script>
-	<plaintext></code>
+	<code>
+		<plaintext>
+			<script type="text/javascript">jss.import('/path/to/your/css.css');</script>
+		<plaintext>
+	</code>
 	<br>
 	<strong>Do that as many times as you need to for all your CSS files</strong>
 	<br><br>
