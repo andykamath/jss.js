@@ -25,6 +25,13 @@ function imported(data) {
             }
             for (var b = 0; b < block.length; b++) {
                 if (block.split('{')[1].split(';')[b].trim().indexOf('}') > -1) break;
+                if(block.split('{')[0].trim().split(':')[0].split(' ')[0].indexOf(',') > -1)
+                {
+                	for(var c = 0; c<block.split('{')[0].trim().split(':')[0].split(' ')[0].split(',').length; c++)
+                	{
+                		$(block.split('{')[0].trim().split(',')[c].trim().split(':')[0].split(' ')[0]).css(block.split('{')[1].split(';')[b].trim().split(':')[0].trim(), block.split('{')[1].split(';')[b].trim().split(':')[1].trim());
+                	}
+                }
                 $(block.split('{')[0].trim().split(':')[0].split(' ')[0]).css(block.split('{')[1].split(';')[b].trim().split(':')[0].trim(), block.split('{')[1].split(';')[b].trim().split(':')[1].trim());
                 if (block.split('{')[1].split(';')[b].trim() == '}') break;
             }

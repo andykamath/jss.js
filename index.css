@@ -2,12 +2,8 @@
 
 .main { background: yellow; }
 
-a[swag*="swag"] 
+a,p
 {
 	background: red;
 	font-size: 500px;
-}
-
-p::after { 
-    content: " - Remember this";
 }
